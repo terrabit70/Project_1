@@ -8,11 +8,10 @@ print('******************************')
 
 count = 6
 zag_val = random.randint(0, 20)
-#print('Попыток осталось: ', count)
-#print('Загаданное число ', zag_val)
+
 while count > 0:
     print('Попыток осталось: ', count)
-    print('Введите Ваш вариант: ', end='')
+    print('Число мне запили: ', end='')
     inp_val = input()
     if inp_val.isdigit() == False:
         print('Ты втираешь мне какую-то дичь!')
